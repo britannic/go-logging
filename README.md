@@ -1,6 +1,8 @@
-## Golang logging library
+# Golang logging library
 
-[![godoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/op/go-logging) [![build](https://img.shields.io/travis/op/go-logging.svg?style=flat)](https://travis-ci.org/op/go-logging)
+## Forked from github.com/op/go-logging
+
+[![godoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/britannic/go-logging) [![build](https://img.shields.io/travis/op/go-logging.svg?style=flat)](https://travis-ci.org/britannic/go-logging)
 
 Package logging implements a logging infrastructure for Go. Its output format
 is customizable and supports different logging backends like syslog, file and
@@ -24,7 +26,7 @@ package main
 import (
 	"os"
 
-	"github.com/op/go-logging"
+	"github.com/britannic/go-logging"
 )
 
 var log = logging.MustGetLogger("example")
@@ -74,19 +76,19 @@ func main() {
 
 ### Using *go get*
 
-    $ go get github.com/op/go-logging
+    $ go get github.com/britannic/go-logging
 
 After this command *go-logging* is ready to use. Its source will be in:
 
-    $GOPATH/src/pkg/github.com/op/go-logging
+    $GOPATH/src/pkg/github.com/britannic/go-logging
 
 You can use `go get -u` to update the package.
 
 ## Documentation
 
-For docs, see http://godoc.org/github.com/op/go-logging or run:
+For docs, see http://godoc.org/github.com/britannic/go-logging or run:
 
-    $ godoc github.com/op/go-logging
+    $ godoc github.com/britannic/go-logging
 
 ## Additional resources
 
