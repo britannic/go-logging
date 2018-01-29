@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.1 (2018-01-29)
+
+* (britannic fork) Patched to change NOTICE color
+
 ## 2.0.0-rc1 (2016-02-11)
 
 Time flies and it has been three years since this package was first released.
